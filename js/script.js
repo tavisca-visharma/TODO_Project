@@ -136,7 +136,7 @@ function createHeaderForDeleteButton(header) {
 function createUncheckedCheckboxImage(item) {
     let itemdata = document.createElement("td");
     let image = document.createElement("img");
-    image.src = "../images/uncheck.png";
+    image.src = "images/uncheck.png";
     image.width = "20";
     image.height = "20";
     image.style.display = "";
@@ -149,7 +149,7 @@ function createUncheckedCheckboxImage(item) {
 
 function createCheckedCheckboxImage(itemdata) {
     let image = document.createElement("img");
-    image.src = "../images/check.jpg";
+    image.src = "images/check.jpg";
     image.width = "20";
     image.height = "20";
     image.className = "images";
